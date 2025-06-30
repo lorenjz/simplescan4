@@ -28,9 +28,7 @@ class MyTable(Table):
 
     def updatemystuff(self):
         self.update
-    @staticmethod
-    def change_row_color(index, color):
-        Table.setRowColors(self, rows=index, clr=color, cols=all)
+    
         
 
 def button_click(chnl_freq):
